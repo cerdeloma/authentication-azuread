@@ -6,7 +6,7 @@ const msalConfig = {
         authority: `https://login.microsoftonline.com/{TENANT_ID}`,
         redirectUri: '/'
     }
-}
+};
 
 const msalInstance = new msal.PublicClientApplication(msalConfig);
 
